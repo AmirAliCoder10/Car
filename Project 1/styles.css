@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#cars :hover {
+ text-decoration: none;
+}
+.ford {
+    float: right;
+}
+body {
+    background-image:url(drift.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ford ul li {
+display: inline-block;
+margin: 10px;
+padding: 5px;
+}
+.ford ul li a {
+    color:#b39d12 ;
+    text-decoration: none;
+}
+.cheverlot {
+    float: left;
+}
+.cheverlot ul li {
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+}
+.cheverlot ul li a {
+    color:#010300 ;
+    text-decoration: none;
+}
+.main {
+ text-align: center;
+ width: 100%;
+ position: absolute;
+ color : #fff ;
+ top: 30%;
+ font-size: medium;
+}
